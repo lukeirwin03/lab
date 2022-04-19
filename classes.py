@@ -39,7 +39,7 @@ class Television:
         Method to decrease the value of the variable that represents the TV's channel by 1
         """
         if(self.__ison == True):
-            if(self.__chan < self.MAX_CHANNEL):
+            if(self.__chan > self.MIN_CHANNEL):
                 self.__chan -= 1
             elif(self.__chan == self.MIN_CHANNEL):
                 self.__chan = self.MAX_CHANNEL
