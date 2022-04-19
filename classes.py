@@ -60,6 +60,15 @@ class Television:
             if(self.__vol > self.MIN_VOLUME):
                 self.__vol -= 1
 
+    def getVol(self):
+        return self.__vol
+
+    def getChan(self):
+        return self.__chan
+
+    def getIson(self):
+        return self.__ison
+
     def __str__(self) -> str:
         """
         Method to print out the TV object and display its atributes
