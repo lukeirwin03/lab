@@ -61,12 +61,21 @@ class Television:
                 self.__vol -= 1
 
     def getVol(self):
+        """
+        Method to get the current volume
+        """
         return self.__vol
 
     def getChan(self):
+        """
+        Method to get the current channel
+        """
         return self.__chan
 
     def getIson(self):
+        """
+        Method to get the current ison status
+        """
         return self.__ison
 
     def __str__(self) -> str:
