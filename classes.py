@@ -60,24 +60,6 @@ class Television:
             if(self.__vol > self.MIN_VOLUME):
                 self.__vol -= 1
 
-    def getVol(self):
-        """
-        Method to get the current volume
-        """
-        return self.__vol
-
-    def getChan(self):
-        """
-        Method to get the current channel
-        """
-        return self.__chan
-
-    def getIson(self):
-        """
-        Method to get the current ison status
-        """
-        return self.__ison
-
     def __str__(self) -> str:
         """
         Method to print out the TV object and display its atributes
